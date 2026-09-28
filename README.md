@@ -1,33 +1,33 @@
-# 🗳️ CampusVote — Student Council Election 2026
+# CampusVote — Student Council Election 2026
 
 A secure, feature-rich online voting system built for Student Council Elections. CampusVote offers voice-assisted voting, real-time results tracking, and role-based access control — all within a sleek, glassmorphism-inspired dark UI.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔐 Authentication & Access Control
+### Authentication & Access Control
 - **User Registration & Login** — Sign in with email/password or create a new account
 - **Role-Based Access Control (RBAC)** — Two roles: **Voter** (Student) and **Admin** (Faculty)
 - **Session Persistence** — Stay logged in across page refreshes via `localStorage`
 
-### 🗳️ Voting
+### Voting
 - **One-Person-One-Vote** — Each voter can cast exactly one vote
 - **Confirmation Modal** — Prevents accidental votes with a confirmation step
 - **Vote Integrity** — Votes are recorded and cannot be modified after submission
 - **Election Status** — Admins can open/close voting at any time
 
-### 🎤 Voice-Assisted Voting
+### Voice-Assisted Voting
 - **Speech Recognition** — Click the microphone and say a candidate's name to vote
 - **Text-to-Speech Feedback** — Audio confirmation of selections and errors
 - **Browser API Powered** — Uses the Web Speech API (best supported in Chrome)
 
-### 📊 Live Results
+### Live Results
 - **Real-Time Dashboard** — Vote distribution with progress bars and percentages
 - **Auto-Refresh** — Results update every 3 seconds
 - **Voter Turnout Stats** — Track participation rate and leading candidate
 
-### ⚙️ Admin Panel
+### Admin Panel
 - **Election Control** — Open/close voting and reset the entire election
 - **Voter Registry** — View all registered users and their voting status
 - **Activity Log** — Audit trail of all sign-ins, votes, and admin actions
@@ -35,7 +35,7 @@ A secure, feature-rich online voting system built for Student Council Elections.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer     | Technology                                    |
 |-----------|-----------------------------------------------|
@@ -50,7 +50,7 @@ A secure, feature-rich online voting system built for Student Council Elections.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - A modern web browser (Chrome recommended for voice features)
@@ -78,7 +78,7 @@ A secure, feature-rich online voting system built for Student Council Elections.
 
 ---
 
-## 🔑 Demo Credentials
+## Demo Credentials
 
 | Role  | Email                  | Password   |
 |-------|------------------------|------------|
@@ -89,7 +89,7 @@ A secure, feature-rich online voting system built for Student Council Elections.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Voting system/
@@ -107,7 +107,7 @@ Voting system/
 
 ---
 
-## 🎨 Design Highlights
+## Design Highlights
 
 - **Dark Navy + Electric Blue + Gold** color palette
 - **Glassmorphism** cards with backdrop blur and subtle borders
@@ -119,7 +119,7 @@ Voting system/
 
 ---
 
-## 📝 Candidates
+## Candidates
 
 | #  | Name            | Position        |
 |----|-----------------|-----------------|
@@ -130,7 +130,7 @@ Voting system/
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 - **Client-side only** — All data is stored in `localStorage`. Clearing browser data will reset everything.
 - **Not for production** — Passwords are stored in plaintext. This is a demonstration/educational project.
@@ -138,6 +138,6 @@ Voting system/
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available for educational purposes.
